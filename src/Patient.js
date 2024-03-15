@@ -1,12 +1,16 @@
-export const Patient  = () => {
-  
-    return (
-       <div>
-  
-      <h1>Patient page</h1>
-       </div>
-    
 
-         
-     );
-   };
+/*import Sidebar from "./Sidebar";*/
+import React from "react";
+
+export const Patient = () => {
+  
+  return (
+     <div>
+  
+  
+     </div>
+  
+       
+   );
+ };
+ export default Patient;

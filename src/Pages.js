@@ -1,19 +1,14 @@
 
-
- export const Pages = (props) => {
+export const Pages = (props) => {
   
-   return (
-      <div>
+    return (
+       <div>
+  
+       {props.icon}{props.title}
+       </div>
+    
+         
+     );
+   };
  
-      {props.icon}{props.title}
-      </div>
-   
-        
-    );
-  };
-
-
-
-
-
-      
+ 
