@@ -131,35 +131,113 @@
     box-sizing: border-box;
   }
   
-  .buttons-container {
-    margin-top: 20px;
-    display: flex;
-    gap: 10px;
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*page patient*/
+
+  .rechercher-section {
+    margin-bottom: 20px;
   }
   
-  .button {
-    padding: 10px;
-    font-size: 14px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-
-    color: white;
-    border: none;
+  .input-section label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input-section input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
     border-radius: 4px;
+    box-sizing: border-box;
   }
   
-
-  .button-danger {
-    background-color: #f44336;
+  .input-section input[type="text"] {
+    height: 38px;
   }
   
-  .button-danger:hover {
-    background-color: #d32f2f;
+  .input-section input[type="text"]:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 8px 0 rgba(102, 175, 233, 0.6);
   }
-  
-
-
-
-  
   
